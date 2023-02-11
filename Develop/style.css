@@ -24,7 +24,8 @@ header h1 {
     display: flex;
 }
 
-.body {
+.content {
+    display: flex;
     color: var(--f-color);
     background-color: var(--bg-color);
 }
