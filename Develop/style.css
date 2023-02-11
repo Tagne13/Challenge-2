@@ -24,10 +24,29 @@ header h1 {
     display: flex;
 }
 
+
+
 .content {
-    display: flex;
+    display: inline-block;
+    width: 100%;
     color: var(--f-color);
     background-color: var(--bg-color);
+}
+
+.About {
+    margin-left: 10px;
+}
+
+.Work {
+    margin-left: 10px;
+}
+
+.Contact {
+    margin-left: 10px;
+}
+
+.Resume {
+    margin-left: 10px;
 }
 
 footer {
