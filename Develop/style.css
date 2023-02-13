@@ -9,28 +9,48 @@ header {
     color: darkorange;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 20px;
+    border: 5px;
+    border-style: double;
+    border-color: darkorange;
 }
 
 header h1 {
     display: flex;
     font-weight: bold;
-    font-style: oblique;
+    font-style: italic;
+    justify-content: center;
 }
 
-.navigation {
+#profile-photo {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 350px;
+    border-style: groove;
+    border-width: 3px;
+    border-color: darkorange;
+    border-radius: 50%;
+}
+
+.nav-list {
     list-style: none;
     margin-right: 20px;
-    float: right;
     display: flex;
+    justify-content: flex-end;
 }
 
-
+.nav-item {
+    padding: 4px;
+    color: darkorange;
+}
 
 .content {
     display: inline-block;
     width: 100%;
     color: var(--f-color);
     background-color: var(--bg-color);
+    font-family: cursive;
 }
 
 .About {
