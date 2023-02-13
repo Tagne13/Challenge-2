@@ -9,12 +9,15 @@ header {
     color: darkorange;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 20px;
+    border: 5px;
+    border-style: double;
+    border-color: darkorange;
 }
 
 header h1 {
     display: flex;
     font-weight: bold;
-    font-style: oblique;
+    font-style: italic;
     justify-content: center;
 }
 
