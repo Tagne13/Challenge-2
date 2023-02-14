@@ -31,7 +31,7 @@ header h1 {
     border-width: 3px;
     border-color: var(--f-color);
     border-radius: 50%;
-    box-shadow: 0px 2px 15px 3px lightgrey;
+    box-shadow: 5px 3px 15px 3px lightgrey;
 }
 
 .nav-list {
@@ -91,18 +91,19 @@ header h1 {
     flex-basis: 80vw;
     flex: 2;
     height: auto;
-    border: 2px solid;
+    border: 2px solid black;
     margin: 10px;
+    color: var(--f-color);
     flex: 1 1 auto;
     flex-direction: row;
-    background-image: url('https://storage.googleapis.com/lnwm-media/Delia_2_cc75611462/Delia_2_cc75611462.jpg?updated_at=2022-12-30T09:11:58.157Z');
+    background-image: url(https://gratisography.com/wp-content/uploads/2022/05/gratisography-heavenly-free-stock-photo-1170x775.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .item:hover {
-    background-color: red;
+    background-color: darkred;
 }
 
 #big-item {
@@ -132,11 +133,21 @@ footer {
 @media screen and (min-width: 768px) {}
 
 @media screen and (min-width: 1000px) {
+    p {
+        text-align: center;
+    }
+
     .container {
         justify-content: space-between;
         flex-wrap: wrap;
         flex-direction: row;
     }
+
+    h2 {
+        display: flex;
+        justify-content: center;
+    }
+
     .item {
         flex-basis: 45vw;
         flex-shrink: 1;
