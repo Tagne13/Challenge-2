@@ -84,13 +84,29 @@ header h1 {
     justify-content: space-around;
     flex: 10 1 auto;
     height: 400px;
+    row-gap: 10px;
 }
 
 .item {
-    flex-basis: 25%;
+    flex-basis: 80vw;
+    flex: 2;
     height: auto;
-    border: 2px dashed;
+    border: 2px solid;
     margin: 10px;
+    flex: 1 1 auto;
+    flex-direction: row;
+    background-image: url('https://storage.googleapis.com/lnwm-media/Delia_2_cc75611462/Delia_2_cc75611462.jpg?updated_at=2022-12-30T09:11:58.157Z');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item:hover {
+    background-color: red;
+}
+
+#big-item {
+    flex-grow: 4;
 }
 
 .Contact {
@@ -115,4 +131,19 @@ footer {
 
 @media screen and (min-width: 768px) {}
 
-@media screen and (min-width: 1000px) {}
+@media screen and (min-width: 1000px) {
+    .container {
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .item {
+        flex-basis: 45vw;
+        flex-shrink: 1;
+    }
+
+    #big-item {
+        flex-basis: 90vw;
+        flex-grow: 2;
+    }
+}
