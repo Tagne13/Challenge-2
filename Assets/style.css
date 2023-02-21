@@ -4,6 +4,7 @@
     --border-rad: 50px;
 }
 
+/* HEADER SECTION */
 header {
     background-color: var(--bg-color);
     color: var(--f-color);
@@ -59,6 +60,7 @@ header h1 {
     position: absolute;
 }
 
+/* MAIN SECTION */
 .content {
     display: inline-block;
     width: 100%;
@@ -77,6 +79,7 @@ header h1 {
     margin-right: 20px;
 }
 
+/* FLEXBOX START */
 .container {
     border: 2px solid;
     display: flex;
@@ -109,11 +112,11 @@ header h1 {
 #big-item {
     flex-grow: 4;
 }
+/* FLEXBOX END */
 
 .Contact {
     margin-left: 20px;
     margin-right: 20px;
-
 }
 
 .Resume {
@@ -121,6 +124,7 @@ header h1 {
     margin-right: 20px;
 }
 
+/* FOOTER SECTION */
 footer {
     background-color: var(--bg-color);
     color: var(--f-color);
@@ -130,6 +134,7 @@ footer {
     clear: both;
 }
 
+/* MEDIA QUERIES */
 @media screen and (min-width: 768px) {}
 
 @media screen and (min-width: 1000px) {
