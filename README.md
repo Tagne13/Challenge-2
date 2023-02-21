@@ -14,7 +14,7 @@ Website: https://tagne13.github.io/Challenge-2/
 
 Repository: https://github.com/Tagne13/Challenge-2.git 
 
-![Screenshot](./Develop/Images/Screenshot_2023-02-16.png)
+![Screenshot](./Assets/Images/Screenshot_2023-02-16.png)
 
 ## Credits
 
