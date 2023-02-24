@@ -10,9 +10,9 @@ N/A
 
 ## Usage
 
-Website: https://tagne13.github.io/Challenge-2/
+Website: https://tagne13.github.io/Jeffs-responsive-portfolio/ 
 
-Repository: https://github.com/Tagne13/Challenge-2.git 
+Repository: https://github.com/Tagne13/Jeffs-responsive-portfolio.git 
 
 ![Screenshot](./Assets/Images/Screenshot_2023-02-16.png)
 
