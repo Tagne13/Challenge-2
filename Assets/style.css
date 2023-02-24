@@ -135,9 +135,34 @@ footer {
 }
 
 /* MEDIA QUERIES */
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+    p {
+        text-align: center;
+    }
 
-@media screen and (min-width: 1000px) {
+    .container {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    h2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .item {
+        flex-basis: 60vw;
+        flex: 2;
+    }
+
+    #big-item {
+        flex-basis: 120vw;
+        flex-grow: 4;
+    }
+}
+
+@media screen and (min-width: 1080px) {
     p {
         text-align: center;
     }
